@@ -22,7 +22,8 @@ namespace GUEST_APK.Formes
         {
             controle.Visiteur = Convert.ToString(cbVisiteur.SelectedValue);
             controle.Agent = Convert.ToString(cbAgent.SelectedValue);
-            controle.Date_heure = Convert.ToDateTime(DateControle.Text);
+            //controle.Date_heure = Convert.ToDateTime(DateControle.Text);
+            controle.Date_heure = DateTime.Now;
         }
 
         //Notre BindingClass pour mise à jour du controle
@@ -31,7 +32,7 @@ namespace GUEST_APK.Formes
             controle.Id_controler = txtId.Text;
             controle.Visiteur = Convert.ToString(cbVisiteur.SelectedValue);
             controle.Agent = Convert.ToString(cbAgent.SelectedValue);
-            controle.Date_heure = Convert.ToDateTime(DateControle.Text);
+            controle.Date_heure = DateTime.Now;
         }
 
         public void Refresh()

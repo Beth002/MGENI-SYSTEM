@@ -15,11 +15,15 @@ namespace GUEST_APK
     {
         SqlConnection con = new SqlConnection();
         SqlCommand cmd = new SqlCommand();
+        Timer bg = new Timer();
         
         public frmLogin()
         {
             InitializeComponent();
-            con.ConnectionString = string.Format("Server = DESKTOP-F2S3F87; Database = DB_GESTION_VISITEUR; User Id = sa; Password = dddd;");
+            con.ConnectionString = string.Format("Server = EL; Database = DB_GESTION_VISITEUR; User Id = sa; Password = dddd;");
+            bg.Tick += (s, e) => { lblHeure.Text = DateTime.Now.ToString(); };
+            bg.Interval = 333;
+            bg.Start();
         }
 
         //La Methode pour Fermer l'Application
@@ -31,8 +35,9 @@ namespace GUEST_APK
         //La Methode pour actualiser les champs du LOGIN PAGE
         private void Actualiser()
         {
-            txtUsername.Text = "";
+            txtUserN.Text = "";
             txtPassword.Text = "";
+            cbStatut.Text = null;
         }
 
         //La Methode pour cacher les caracteres saisis dans le champs du mot de passe
@@ -41,60 +46,56 @@ namespace GUEST_APK
             txtPassword.PasswordChar = (char)0x25CF;
         }
 
-        //Pour charger le combobox des utilisateurs
-        public void ChargerComboUser()
-        {
-            cbUsername.DataSource = new Classes.Users().getUsers();
-            cbUsername.DisplayMember = "Noms";
-            cbUsername.ValueMember = "Id_User";
-        }
-
-        //Pour l'Authentification
-        //public void Authentification()
-        //{
-        //    if (cbStatut.Text.Equals("Administrateur"))
-        //    {
-        //        frmGUEST guest = new frmGUEST();
-        //        guest.btnControler.Visible = false;
-        //    }
-        //}
-
         //La methode pour se connecter dans l'application
         private void SeConnecter()
         {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.Connection = con;
-            cmd.CommandText = "select * from T_User";
-            SqlDataReader dr = cmd.ExecuteReader();
-
-            while (dr.Read())
+            if (txtPassword.Text.Equals("") && txtUserN.Text.Equals(""))
             {
-                try
-                {
-                    if (txtPassword.Text.Equals(""))
-                    {
-                        MessageBox.Show("Veuillez remplir le Mot de passe !", "Attention", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Veuillez remplir les champs vides !", "Attention", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
-                    }
-                    else if (cbUsername.Text.Equals(dr["Noms"].ToString()) && txtPassword.Text.Equals(dr["Motdepasse"].ToString()) && cbStatut.Text.Equals(dr["Statut"].ToString()))
+            }
+            else if (txtUserN.Text.Equals(""))
+            {
+                MessageBox.Show("Veuillez saisir le nom d'utilisateur !", "Attention", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+            else if (txtPassword.Text.Equals(""))
+            {
+                MessageBox.Show("Veuillez saisir le mot de passe !", "Attention", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+            else
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.Connection = con;
+                cmd.CommandText = "select * from T_User where Noms = '" + txtUserN.Text + "' and Motdepasse = '" + txtPassword.Text + "' and Statut = '" + cbStatut.SelectedItem + "'";
+
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    try
+                    {
+                        if (txtUserN.Text.Equals(dr["Noms"].ToString()) && txtPassword.Text.Equals(dr["Motdepasse"].ToString()) && cbStatut.Text.Equals(dr["Statut"].ToString()))
                         {
                             frmGUEST Guest = new frmGUEST();
                             frmLogin access = new frmLogin();
                             this.Hide();
                             Guest.Show();
                         }
-                    else
+                        else
                         {
                             MessageBox.Show("Nom d'utilisateur ou Mot de passe incorrect!!", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
-                catch (Exception ex)
-                {
-                    //MessageBox.Show("Nom d'utilisateur ou Mot de passe incorrect!!", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    catch (Exception ex)
+                    {
+                        //MessageBox.Show("Nom d'utilisateur ou Mot de passe incorrect!!", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
+                con.Close();
             }
-            con.Close();
         }
         private void btnSeConnecter_Click(object sender, EventArgs e)
         {
@@ -105,7 +106,7 @@ namespace GUEST_APK
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            ChargerComboUser();
+            cbStatut.SelectedItem = "Utilisateur";
         }
     }
 }

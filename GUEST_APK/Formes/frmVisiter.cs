@@ -22,7 +22,7 @@ namespace GUEST_APK.Formes
             visite.Visiteur = Convert.ToString(cbVisiteur.SelectedValue);
             visite.Agent = Convert.ToString(cbAgent.SelectedValue);
             visite.Badge = Convert.ToString(cbBadge.SelectedValue);
-            visite.Date_heure = Convert.ToDateTime(DateVisite.Text);
+            visite.Date_heure = DateTime.Now;
             visite.Motif = Convert.ToString(cbMotif.SelectedItem);
         }
 
@@ -33,7 +33,7 @@ namespace GUEST_APK.Formes
             visite.Visiteur = Convert.ToString(cbVisiteur.SelectedValue);
             visite.Agent = Convert.ToString(cbAgent.SelectedValue);
             visite.Badge = Convert.ToString(cbBadge.SelectedValue);
-            visite.Date_heure = Convert.ToDateTime(DateVisite.Text);
+            visite.Date_heure = DateTime.Now;
             visite.Motif = Convert.ToString(cbMotif.SelectedItem);
         }
 

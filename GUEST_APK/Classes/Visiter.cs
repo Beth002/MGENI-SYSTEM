@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace GUEST_APK.Classes
 {
@@ -19,6 +20,9 @@ namespace GUEST_APK.Classes
         string departement;
 
         DateTime date_heure;
+
+        //string query;
+        //string ConnectionString = "Server = DESKTOP-F2S3F87; Database = DB_GESTION_VISITEUR; User Id = sa; Password = dddd;";
 
         public string Id_visite
         {
@@ -227,5 +231,23 @@ namespace GUEST_APK.Classes
             }
             return value;
         }
+        //public DataSet PrintCard(string Table)
+        //{
+        //    //con = new DataAccess().DBConnect();
+        //    SqlCommand cmd = new SqlCommand();
+        //    DataSet ds = new DataSet();
+        //    query = "SELECT * FROM V_VISITE WHERE Id_Visite ='240DBE8E-6'";
+        //    cmd.CommandText = query;
+        //    //SqlDataAdapter da = new SqlDataAdapter(cmd);
+        //    //da.Fill(ds, Table);
+        //    using (SqlConnection con = new SqlConnection(ConnectionString))
+        //    {
+        //        con.Open();
+        //        cmd.Connection = con;
+        //        SqlDataAdapter da = new SqlDataAdapter(cmd);
+        //        da.Fill(ds, Table);
+        //    }
+        //    return ds;
+        //}
     }
 }

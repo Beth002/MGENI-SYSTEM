@@ -37,6 +37,23 @@
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2.UI, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Guna.UI">
       <HintPath>F:\SOFT\Microsoft Visual Studio\framework desk\Guna\Guna.UI.dll</HintPath>
     </Reference>
@@ -47,12 +64,19 @@
     <Reference Include="MySql.Data">
       <HintPath>F:\SOFT\Microsoft Visual Studio\framework desk\MySql.Data.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.3.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.3\lib\net40\QRCoder.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -62,6 +86,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
     <Reference Include="zxing, Version=1.0.4727.18517, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ZXing.2.1.1\lib\net20\zxing.dll</HintPath>
       <Private>True</Private>
@@ -119,16 +144,34 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RapportsEtatsDeSortie\RapportControle.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RapportControle.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RapportsEtatsDeSortie\RapportVisiteurs.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RapportVisiteurs.rpt</DependentUpon>
+    <Compile Include="RapportsEtatsDeSortie\RapportControle.Designer.cs">
+      <DependentUpon>RapportControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportsEtatsDeSortie\RapportVisite.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RapportsEtatsDeSortie\RapportVisite.Designer.cs">
+      <DependentUpon>RapportVisite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportsEtatsDeSortie\RapportVisiteur.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RapportsEtatsDeSortie\RapportVisiteur.Designer.cs">
+      <DependentUpon>RapportVisiteur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapportsEtatsDeSortie\VisitCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RapportsEtatsDeSortie\VisitCard.Designer.cs">
+      <DependentUpon>VisitCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCAccueil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCAccueil.Designer.cs">
+      <DependentUpon>UCAccueil.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UCControler.cs">
       <SubType>UserControl</SubType>
@@ -170,6 +213,7 @@
     <EmbeddedResource Include="Formes\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -179,13 +223,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RapportsEtatsDeSortie\RapportControle.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RapportControle.cs</LastGenOutput>
+    <EmbeddedResource Include="RapportsEtatsDeSortie\RapportControle.resx">
+      <DependentUpon>RapportControle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RapportsEtatsDeSortie\RapportVisiteurs.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RapportVisiteurs.cs</LastGenOutput>
+    <EmbeddedResource Include="RapportsEtatsDeSortie\RapportVisite.resx">
+      <DependentUpon>RapportVisite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportsEtatsDeSortie\RapportVisiteur.resx">
+      <DependentUpon>RapportVisiteur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapportsEtatsDeSortie\VisitCard.resx">
+      <DependentUpon>VisitCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCAccueil.resx">
+      <DependentUpon>UCAccueil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UCControler.resx">
       <DependentUpon>UCControler.cs</DependentUpon>

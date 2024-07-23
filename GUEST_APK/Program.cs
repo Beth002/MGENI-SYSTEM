@@ -16,7 +16,7 @@ namespace GUEST_APK
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmGUEST());
+            Application.Run(new frmLogin());
         }
     }
 }

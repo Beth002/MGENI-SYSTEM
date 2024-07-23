@@ -8,13 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DevExpress.XtraReports.UI;
+using GUEST_APK.RapportsEtatsDeSortie;
 
 namespace GUEST_APK.UserControls
 {
     public partial class UCVisiter : UserControl
     {
+        string query;
+        string ConnectionString = "Server = EL; Database = DB_GESTION_VISITEUR; User Id = sa; Password = dddd;";
+
+
         Formes.frmVisiter frmVisiter = new Formes.frmVisiter();
         Classes.Visiter visite = new Classes.Visiter();
+        Classes.Agents agent = new Classes.Agents();
 
         string code;
         public UCVisiter()
@@ -61,6 +68,9 @@ namespace GUEST_APK.UserControls
         private void UCVisiter_Load(object sender, EventArgs e)
         {
             LoadList();
+            ChargerCombo();
+            cbAgent.Enabled = false;
+            btnImprinerCarte.Enabled = false;
         }
 
         private void btnAjouter_Click(object sender, EventArgs e)
@@ -69,6 +79,7 @@ namespace GUEST_APK.UserControls
             var forme = new Formes.frmVisiter();
             forme.ShowDialog();
             LoadList();
+            btnImprinerCarte.Enabled = false;
         }
 
         public void Chargement_DataGrid()
@@ -114,6 +125,114 @@ namespace GUEST_APK.UserControls
             Chargement_DataGrid();
             frmVisiter.ShowDialog();
             LoadList();
+            btnImprinerCarte.Enabled = false;
+        }
+
+        private void btnImprimer_Click(object sender, EventArgs e)
+        {
+            RapportVisite rapport = new RapportVisite();
+            ReportPrintTool impression = new ReportPrintTool(rapport);
+            rapport.ShowPreviewDialog();
+        }
+        
+        public DataSet PrintCard(string Table)
+        {
+            SqlCommand cmd = new SqlCommand();
+            DataSet ds = new DataSet();
+            query = "SELECT * FROM V_VISITE WHERE Id_Visite ='" + lblGetId.Text + "'";
+            cmd.CommandText = query;
+            using (SqlConnection con = new SqlConnection(ConnectionString))
+            {
+                con.Open();
+                cmd.Connection = con;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(ds, Table);
+            }
+            return ds;
+        }
+
+        private void btnImprinerCarte_Click(object sender, EventArgs e)
+        {
+            VisitCard Card = new VisitCard();
+            Card.DataSource = PrintCard("V_VISITE");
+            using (ReportPrintTool print = new ReportPrintTool(Card))
+            {
+                print.ShowPreviewDialog();
+            }
+        }
+
+        private void dgVisiter_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public DataSet PrintByDate(string Table)
+        {
+            if (chkAgent.Checked == true)
+            {
+                SqlCommand cmd = new SqlCommand();
+                DataSet ds = new DataSet();
+                //query = "SELECT * FROM V_VISITE WHERE DATE_HEURE = '" + DateDebut.Value.ToString("yyyy-MM-dd") + "' AND  '" + cbAgent.SelectedValue + "'";
+                query = "SELECT * FROM V_VISITE WHERE DATE_HEURE BETWEEN '" + DateDebut.Value.ToString("yyyy-MM-dd") + "' AND '" + DateFin.Value.ToString("yyyy-MM-dd") + "' AND AGENT = '" + cbAgent.SelectedValue + "'";
+                cmd.CommandText = query;
+                using (SqlConnection con = new SqlConnection(ConnectionString))
+                {
+                    con.Open();
+                    cmd.Connection = con;
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    da.Fill(ds, Table);
+                }
+                return ds;
+            }
+            else if (chkAgent.Checked == false)
+            {
+                SqlCommand cmd = new SqlCommand();
+                DataSet ds = new DataSet();
+                query = "SELECT * FROM V_VISITE WHERE DATE_HEURE BETWEEN '" + DateDebut.Value.ToString("yyyy-MM-dd") + "' AND '" + DateFin.Value.ToString("yyyy-MM-dd") + "'";
+                cmd.CommandText = query;
+                using (SqlConnection con = new SqlConnection(ConnectionString))
+                {
+                    con.Open();
+                    cmd.Connection = con;
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    da.Fill(ds, Table);
+                }
+                return ds;
+            }
+            return ds;
+        }
+
+        public void CheckAgent()
+        {
+            if (chkAgent.Checked)
+            {
+                cbAgent.Enabled = true;
+            }
+            else
+            {
+                cbAgent.Enabled = false;
+            }
+        }
+        private void btnRapportDateAgent_Click(object sender, EventArgs e)
+        {
+            RapportVisite RapByDate = new RapportVisite();
+            RapByDate.DataSource = PrintByDate("V_VISITE");
+            using (ReportPrintTool print = new ReportPrintTool(RapByDate))
+            {
+                print.ShowPreviewDialog();
+            }
+        }
+
+        public void ChargerCombo()
+        {
+            cbAgent.DataSource = new Classes.Agents().getAgentsComboVisiter();
+            cbAgent.DisplayMember = "Nom";
+            cbAgent.ValueMember = "Nom";
+        }
+
+        private void chkAgent_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckAgent();
         }
     }
 }

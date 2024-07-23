@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using GUEST_APK.RapportsEtatsDeSortie;
+using DevExpress.XtraReports.UI;
 //using DevExpress.XtraReports.UI;
 
 
@@ -73,10 +75,9 @@ namespace GUEST_APK
         private void btnAjouter_Click(object sender, EventArgs e)
         {
             var forme = new frmAjout();
+            frmAjouter.lblMENU.Text = "ENREGISTREMENT";
             forme.ShowDialog();
             frmAjouter.btnModifier.Visible = false;
-            frmAjouter.panelEnregistrement.Visible = true;
-            frmAjouter.panelModification.Visible = false;
             LoadList();
         }
 
@@ -106,8 +107,7 @@ namespace GUEST_APK
         {
             Chargement_DataGrid();
             frmAjouter.ShowDialog();
-            frmAjouter.panelEnregistrement.Visible = false;
-            frmAjouter.panelModification.Visible = true;
+            frmAjouter.lblMENU.Text = "MODIFICATION";
             LoadList();
         }
 
@@ -148,8 +148,9 @@ namespace GUEST_APK
 
         private void btnImprimer_Click(object sender, EventArgs e)
         {
-            var impression = new Formes.RapportV();
-            impression.ShowDialog();
+            RapportVisiteur rapport = new RapportVisiteur();
+            ReportPrintTool impression = new ReportPrintTool(rapport);
+            rapport.ShowPreviewDialog();
         }
     }
 }

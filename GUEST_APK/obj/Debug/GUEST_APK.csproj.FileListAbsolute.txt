@@ -32,9 +32,373 @@ E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.Re
 E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\stdole.dll
 E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.Formes.RapportV.resources
-E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.csprojResolveAssemblyReference.cache
 E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.UserControls.UCVisiter.resources
 E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.Formes.frmVisiter.resources
 E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.Formes.RapportControle.resources
 E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\zxing.dll
 E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\zxing.pdb
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\QRCoder.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Charts.v15.2.Core.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Data.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.DataAccess.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Office.v15.2.Core.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.PivotGrid.v15.2.Core.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Utils.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Utils.v15.2.UI.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Xpo.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraGauges.v15.2.Core.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraReports.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraReports.v15.2.Extensions.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.CodeParser.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraBars.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraRichEdit.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraVerticalGrid.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.DataAccess.v15.2.UI.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.Extensions.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraPivotGrid.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraNavBar.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraGrid.v15.2.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Data.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.DataAccess.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Office.v15.2.Core.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.PivotGrid.v15.2.Core.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Utils.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Utils.v15.2.UI.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Xpo.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraGauges.v15.2.Core.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraReports.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraReports.v15.2.Extensions.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraBars.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraRichEdit.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraVerticalGrid.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.DataAccess.v15.2.UI.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraPivotGrid.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraNavBar.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.xml
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.DataAccess.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.DataAccess.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.DataAccess.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.DataAccess.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.PivotGrid.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.PivotGrid.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.PivotGrid.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.PivotGrid.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Utils.v15.2.UI.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Utils.v15.2.UI.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Utils.v15.2.UI.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Utils.v15.2.UI.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Xpo.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Xpo.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Xpo.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Xpo.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraCharts.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraCharts.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraCharts.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraCharts.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraGauges.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraGauges.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraGauges.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraGauges.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraReports.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraReports.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraReports.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraReports.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraRichEdit.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraRichEdit.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraRichEdit.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraRichEdit.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.DataAccess.v15.2.UI.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.DataAccess.v15.2.UI.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.DataAccess.v15.2.UI.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.DataAccess.v15.2.UI.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraPivotGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraPivotGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraPivotGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraPivotGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraNavBar.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraNavBar.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraNavBar.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraNavBar.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.RapportsEtatsDeSortie.RapportVisite.resources
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.exe.licenses
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.RapportsEtatsDeSortie.RapportControle.resources
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.RapportsEtatsDeSortie.RapportVisiteur.resources
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.RapportsEtatsDeSortie.VisitCard.resources
+E:\Visual Studio 2015\projects\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.UserControls.UCAccueil.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\GUEST_APK.exe.config
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.exe
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.pdb
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\GUEST_APK.exe
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\GUEST_APK.pdb
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\QRCoder.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\zxing.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.CodeParser.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraBars.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraRichEdit.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraVerticalGrid.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.DataAccess.v15.2.UI.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.Extensions.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraPivotGrid.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraNavBar.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraGrid.v15.2.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\stdole.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Data.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.DataAccess.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Office.v15.2.Core.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.PivotGrid.v15.2.Core.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Utils.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Utils.v15.2.UI.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Xpo.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraGauges.v15.2.Core.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraReports.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraReports.v15.2.Extensions.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\zxing.pdb
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraBars.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraRichEdit.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraVerticalGrid.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.DataAccess.v15.2.UI.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraPivotGrid.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraNavBar.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.xml
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.DataAccess.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.DataAccess.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.DataAccess.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.DataAccess.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.PivotGrid.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.PivotGrid.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.PivotGrid.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.PivotGrid.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Utils.v15.2.UI.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Utils.v15.2.UI.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Utils.v15.2.UI.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Utils.v15.2.UI.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Xpo.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Xpo.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Xpo.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Xpo.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraCharts.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraCharts.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraCharts.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraCharts.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraGauges.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraGauges.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraGauges.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraGauges.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraReports.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraReports.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraReports.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraReports.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraRichEdit.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraRichEdit.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraRichEdit.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraRichEdit.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.DataAccess.v15.2.UI.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.DataAccess.v15.2.UI.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.DataAccess.v15.2.UI.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.DataAccess.v15.2.UI.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraPivotGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraPivotGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraPivotGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraPivotGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraNavBar.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraNavBar.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraNavBar.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraNavBar.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\de\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\es\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ja\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\bin\Debug\ru\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.csprojResolveAssemblyReference.cache
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.Formes.frmControler.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.Formes.frmVisiter.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.Formes.RapportControle.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.Formes.RapportV.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.frmAjout.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.frmGUEST.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.frmLogin.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.Properties.Resources.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.RapportsEtatsDeSortie.RapportControle.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.RapportsEtatsDeSortie.RapportVisite.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.RapportsEtatsDeSortie.RapportVisiteur.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.RapportsEtatsDeSortie.VisitCard.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.UserControls.UCAccueil.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.UserControls.UCControler.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.UserControls.UCVisiter.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.UCVisiteurs.resources
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.csproj.GenerateResource.Cache
+D:\ISIG-GOMA\G3IG\APK TFC\GUEST_APK\GUEST_APK\obj\Debug\GUEST_APK.exe.licenses

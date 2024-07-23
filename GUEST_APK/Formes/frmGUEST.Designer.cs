@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGUEST));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.lblHeure = new System.Windows.Forms.Label();
             this.btnVisite = new Guna.UI2.WinForms.Guna2Button();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.btnControler = new Guna.UI2.WinForms.Guna2Button();
@@ -42,6 +43,7 @@
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogout)).BeginInit();
             this.SuspendLayout();
@@ -49,6 +51,8 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.panelMenu.Controls.Add(this.btnDashboard);
+            this.panelMenu.Controls.Add(this.lblHeure);
             this.panelMenu.Controls.Add(this.btnVisite);
             this.panelMenu.Controls.Add(this.btnHome);
             this.panelMenu.Controls.Add(this.btnControler);
@@ -60,6 +64,16 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(145, 581);
             this.panelMenu.TabIndex = 1;
+            // 
+            // lblHeure
+            // 
+            this.lblHeure.AutoSize = true;
+            this.lblHeure.Font = new System.Drawing.Font("Century Schoolbook", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeure.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblHeure.Location = new System.Drawing.Point(7, 129);
+            this.lblHeure.Name = "lblHeure";
+            this.lblHeure.Size = new System.Drawing.Size(0, 16);
+            this.lblHeure.TabIndex = 6;
             // 
             // btnVisite
             // 
@@ -151,9 +165,10 @@
             this.btnLogout.BackColor = System.Drawing.Color.Transparent;
             this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
-            this.btnLogout.Location = new System.Drawing.Point(41, 508);
+            this.btnLogout.Location = new System.Drawing.Point(12, 535);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(50, 50);
+            this.btnLogout.Size = new System.Drawing.Size(34, 34);
+            this.btnLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnLogout.TabIndex = 1;
             this.btnLogout.TabStop = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
@@ -210,6 +225,31 @@
             this.guna2Elipse4.BorderRadius = 20;
             this.guna2Elipse4.TargetControl = this.panelPrincipal;
             // 
+            // btnDashboard
+            // 
+            this.btnDashboard.Animated = true;
+            this.btnDashboard.AnimatedGIF = true;
+            this.btnDashboard.AutoRoundedCorners = true;
+            this.btnDashboard.BackColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.BorderColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.BorderRadius = 22;
+            this.btnDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDashboard.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDashboard.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDashboard.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDashboard.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDashboard.FillColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
+            this.btnDashboard.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnDashboard.Location = new System.Drawing.Point(10, 367);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(129, 46);
+            this.btnDashboard.TabIndex = 7;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
             // frmGUEST
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -225,6 +265,7 @@
             this.Text = "GUEST";
             this.Load += new System.EventHandler(this.frmGUEST_Load);
             this.panelMenu.ResumeLayout(false);
+            this.panelMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogout)).EndInit();
             this.ResumeLayout(false);
 
@@ -243,5 +284,7 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private System.Windows.Forms.Label lblHeure;
+        public Guna.UI2.WinForms.Guna2Button btnDashboard;
     }
 }

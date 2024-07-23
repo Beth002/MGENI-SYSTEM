@@ -12,12 +12,15 @@ namespace GUEST_APK
 {
     public partial class frmGUEST : Form
     {
+        Timer bg = new Timer();
         public frmGUEST()
         {
             InitializeComponent();
             panelCouleur.Height = btnHome.Height;
             panelCouleur.Top = btnHome.Top;
-            //Authentic();
+            bg.Tick += (s, e) => { lblHeure.Text = DateTime.Now.ToString(); };
+            bg.Interval = 333;
+            bg.Start();
         }
 
         private void AppelUserControlVisiteur()
@@ -36,6 +39,11 @@ namespace GUEST_APK
         {
             panelPrincipal.Controls.Clear();
             panelPrincipal.Controls.Add(new UserControls.UCVisiter());
+        }
+        private void AppelUserControlAccueil()
+        {
+            panelPrincipal.Controls.Clear();
+            panelPrincipal.Controls.Add(new UserControls.UCAccueil());
         }
         private void btnVisiteur_Click(object sender, EventArgs e)
         {
@@ -63,6 +71,7 @@ namespace GUEST_APK
         {
             panelCouleur.Height = btnHome.Height;
             panelCouleur.Top = btnHome.Top;
+            AppelUserControlAccueil();
         }
 
         private void btnVisite_Click(object sender, EventArgs e)
@@ -80,7 +89,15 @@ namespace GUEST_APK
 
         private void frmGUEST_Load(object sender, EventArgs e)
         {
+            AppelUserControlAccueil();
             //Authentic();
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            panelCouleur.Height = btnDashboard.Height;
+            panelCouleur.Top = btnDashboard.Top;
+            AppelUserControlAccueil();
         }
     }
 }

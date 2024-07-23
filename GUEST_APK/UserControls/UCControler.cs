@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DevExpress.XtraReports.UI;
+using GUEST_APK.RapportsEtatsDeSortie;
 
 namespace GUEST_APK.UserControls
 {
@@ -121,8 +123,9 @@ namespace GUEST_APK.UserControls
 
         private void btnImprimer_Click(object sender, EventArgs e)
         {
-            var impression = new Formes.RapportControle();
-            impression.ShowDialog();
+            RapportControle rapport = new RapportControle();
+            ReportPrintTool impression = new ReportPrintTool(rapport);
+            rapport.ShowPreviewDialog();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace GUEST_APK
             try
             {
                 //Connexion avec la base de données
-                string strConnectionString = "Server = DESKTOP-F2S3F87; Database = DB_GESTION_VISITEUR; User Id = sa; Password = dddd;";
+                string strConnectionString = "Server = EL; Database = DB_GESTION_VISITEUR; User Id = sa; Password = dddd;";
                 con = new SqlConnection(strConnectionString);
                 con.Open();
 
